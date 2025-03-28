@@ -1,0 +1,94 @@
+{
+  "charity": {
+    "charity_id": "C123",
+    "charity_name": "Zakat Navigator",
+    "charity_address": "123 Charity St., City, Country",
+    "ratio_of_fraud": "",
+    "reasons_of_fraud": "",
+    "contact_info": {
+      "phone": "+1234567890",
+      "email": "contact@zakatnavigator.org",
+      "website": "https://www.zakatnavigator.org"
+    },
+    "vendors": [
+      {
+        "vendor_id": "V001",
+        "vendor_name": "ABC Supplies",
+        "contact_info": {
+          "phone": "+1112233445",
+          "email": "contact@abcsupplies.com"
+        }},
+      {
+        "vendor_id": "V002",
+        "vendor_name": "Water Guys",
+        "contact_info": {
+          "phone": "+1112233445",
+          "email": "contact@waterguys.com"
+        }
+      }
+    ],
+    "employees": [
+      {
+        "employee_id": "E001",
+        "name": "Alice Johnson",
+        "role": "Accountant",
+        "salary": 3000,
+        "contact_info": {
+          "phone": "+1234657890",
+          "email": "alice.johnson@zakatnavigator.org"
+        }
+      },
+      {
+        "employee_id": "E002",
+        "name": "Bob Williams",
+        "role": "Operations Manager",
+        "salary": 3500,
+        "contact_info": {
+          "phone": "+9876543210",
+          "email": "bob.williams@zakatnavigator.org"
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "transaction_id": "T005",
+        "timestamp": "2025-01-20 12:45:00",
+        "amount": 1000,
+        "currency": "USD",
+        "sender_info": "C123",
+        "receiver_info": "V001",
+        "transaction_type": "Donation",
+        "ip_address": "192.168.2.1",
+        "location_data": "Chicago, USA",
+        "device_info": "Windows 10, Chrome Browser",
+        "additional_context": "Transaction completed successfully"
+      },
+      {
+        "transaction_id": "T007",
+        "timestamp": "2025-02-01 08:00:00",
+        "amount": 3000,
+        "currency": "USD",
+        "sender_info": "C123",
+        "receiver_info": "E001",
+        "transaction_type": "Salary Payment",
+        "ip_address": "192.168.3.1",
+        "location_data": "Toronto, Canada",
+        "device_info": "Android Phone, Chrome Browser",
+        "additional_context": "Salary payment processed successfully"
+      },
+      {
+        "transaction_id": "T009",
+        "timestamp": "2025-02-01 08:00:00",
+        "amount": 2000,
+        "currency": "USD",
+        "sender_info": "C123",
+        "receiver_info": "E008",
+        "transaction_type": "Salary Payment",
+        "ip_address": "192.168.3.1",
+        "location_data": "Toronto, Canada",
+        "device_info": "Android Phone, Chrome Browser",
+        "additional_context": "Salary payment processed successfully"
+      }
+    ]
+  }
+}
